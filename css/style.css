@@ -107,8 +107,14 @@
   color: #fff;
 }
 
+.hero-img-box {
+  /* width: 100%; */
+  /* margin-bottom: -30px; */
+}
+
 .hero-img {
   width: 100%;
+  margin-bottom: -9.6rem;
 }
 
 .delivered-meals {
@@ -461,4 +467,22 @@
 .img-october {
   width: 100%;
   display: none;
+}
+
+
+
+/********************** */
+/* REVEAL ANIMATION */
+/************************/
+
+.reveal  {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }

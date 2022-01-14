@@ -232,6 +232,19 @@ Use em and not rem in media queries cox of bugs
     .grid--4-cols {
       grid-template-columns: 1fr;
     }
+
+    .hero-description  {
+      order: 2;
+    }
+
+    .hero-img {
+      order: 1
+    }
+
+    .hero-img {
+      /* width: 100%; */
+      margin-bottom: -6.2rem;
+    }
   
     .btn,
     .btn:link,
@@ -318,6 +331,10 @@ Use em and not rem in media queries cox of bugs
       #cta-wallet  {
         margin-top: 2.4rem;
        }
+
+       .coin {
+        width: 5.2rem;
+      }
       
   }
   
